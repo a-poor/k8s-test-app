@@ -5,4 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      
+    - "1323:1323"
+    # environment:
+    # - API_ENV="dev"
+    # - API_PORT="1323"
+    # - API_HTTPS=""
